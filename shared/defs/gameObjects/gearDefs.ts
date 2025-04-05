@@ -65,7 +65,7 @@ const ChestDefs: Record<string, ChestDef> = {
         name: "Level 3 Vest",
         type: "chest",
         level: 3,
-        damageReduction: 0.45,
+        damageReduction: .99,
         skinImg: {
             baseTint: 0,
             baseSprite: "player-armor-base-01.img",
@@ -284,7 +284,7 @@ const BackpackDefs: Record<string, BackpackDef> = {
     backpack03: {
         name: "Military Pack",
         type: "backpack",
-        level: 3,
+        level: 100,
         tint: 6710835,
         playerRad: 1,
         lootImg: {
@@ -340,14 +340,14 @@ const BoostDefs: Record<string, BoostDef> = {
     painkiller: {
         name: "Pills",
         type: "boost",
-        useTime: 5,
-        boost: 50,
+        useTime: .01,
+        boost: 100,
         lootImg: {
             sprite: "loot-medical-pill.img",
             tint: 0xffffff,
             border: "loot-circle-outer-01.img",
             borderTint: 0,
-            scale: 0.2,
+            scale: 1.5,
         },
         sound: {
             pickup: "pills_pickup_01",
@@ -356,7 +356,7 @@ const BoostDefs: Record<string, BoostDef> = {
         emitter: "boost",
         aura: {
             sprite: "part-aura-circle-01.img",
-            tint: 1676544,
+            tint: 16711680,
         },
     },
 };
