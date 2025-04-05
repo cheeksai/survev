@@ -41,13 +41,13 @@ const BaseDefs: Record<string, OutfitDef> = {
         name: "Basic Outfit",
         type: "outfit",
         skinImg: {
-            baseTint: 16303476,
+            baseTint: 8630096,
             baseSprite: "player-base-01.img",
-            handTint: 16303476,
+            handTint: 8630096,
             handSprite: "player-hands-01.img",
-            footTint: 16303476,
+            footTint: 8630096,
             footSprite: "player-feet-01.img",
-            backpackTint: 8480055,
+            backpackTint: 8630096,
             backpackSprite: "player-circle-base-01.img",
         },
         lootImg: {
