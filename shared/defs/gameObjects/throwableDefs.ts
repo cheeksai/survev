@@ -158,7 +158,7 @@ export const ThrowableDefs: Record<string, ThrowableDef> = {
             spinVel: 10 * Math.PI,
             spinDrag: 1,
         },
-        numSplit: 6,
+        numSplit: 30,
         splitType: "mirv_mini",
         speed: { equip: 0, attack: 0 },
         lootImg: {
