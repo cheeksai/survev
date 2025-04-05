@@ -1459,7 +1459,7 @@ export const GunDefs: Record<string, GunDef> = {
         worldImg: {
             sprite: "gun-long-01.img",
             scale: { x: 0.5, y: 0.52 },
-            tint: 3348992,
+            tint: 8630096,
             leftHandOffset: { x: 2.8, y: 0 },
             recoil: 2.33,
         },
