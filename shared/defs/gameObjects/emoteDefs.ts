@@ -237,7 +237,7 @@ export const EmotesDefs: Record<string, EmoteDef> = {
         type: "emote",
         name: "Thumbs Up",
         rarity: 1,
-        texture: "thumbs-up.img",
+        texture: "ammo-9mm.img",
         sound: "emote_01",
         channel: "ui",
         teamOnly: false,
